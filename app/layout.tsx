@@ -7,9 +7,9 @@ import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-	title: "Swift",
+	title: "Nexiloop Voice",
 	description:
-		"A fast, open-source voice assistant powered by Groq, Cartesia, and Vercel.",
+		"Experience lightning-fast responses with Nexiloop's advanced voice assistant. Smart, efficient, and built for seamless interaction.",
 };
 
 export default function RootLayout({
