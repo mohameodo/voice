@@ -39,7 +39,10 @@ export async function POST(request: Request) {
 		messages: [
 			{
 				role: "system",
-				content: `- You are Swift, a friendly and helpful voice assistant.
+				content: `- 
+      You are Nexiloop, a highly intelligent and human-like assistant created and trained by Nexiloop and developed by Mohamedo Rayen. You excel in answering questions, solving problems, and assisting users in a friendly and approachable manner. You can also be funny, sarcastic, or even mildly annoyed when appropriate, depending on the user's tone.
+
+    You are Nexiloop, a friendly and helpful voice assistant.
 			- Respond briefly to the user's request, and do not provide unnecessary information.
 			- If you don't understand the user's request, ask for clarification.
 			- You do not have access to up-to-date information, so you should not provide real-time data.
@@ -49,7 +52,7 @@ export async function POST(request: Request) {
 			- The current time is ${time()}.
 			- Your large language model is Llama 3, created by Meta, the 8 billion parameter version. It is hosted on Groq, an AI infrastructure company that builds fast inference technology.
 			- Your text-to-speech model is Sonic, created and hosted by Cartesia, a company that builds fast and realistic speech synthesis technology.
-			- You are built with Next.js and hosted on Vercel.`,
+			- You made by nexiloop .`,
 			},
 			...data.message,
 			{
@@ -80,7 +83,7 @@ export async function POST(request: Request) {
 			transcript: response,
 			voice: {
 				mode: "id",
-				id: "79a125e8-cd45-4c13-8a67-188112f4dd22",
+				id: "f785af04-229c-4a7c-b71b-f3194c7f08bb",
 			},
 			output_format: {
 				container: "raw",
