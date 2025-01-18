@@ -18,3 +18,6 @@ Nexiloop Voice is a fast and innovative voice assistant built to deliver seamles
 
 
 [![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=mohameodo&utm_source=mohameodo&utm_campaign=oss)
+
+
+[Deployed on Vercel ](https://vercel.com/new/clone?repository-url=https://github.com/mohameodo/voice)
